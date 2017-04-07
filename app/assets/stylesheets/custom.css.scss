@@ -1,4 +1,6 @@
 $navbar-default-bg: #007E33;
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -9,12 +11,67 @@ $navbar-default-bg: #007E33;
     text-transform: uppercase;
     letter-spacing: -1px;
     font-weight:bold;
+    font-family:courier;
 }
+
+
 
 #logo:hover {
     color: #fff;
     text-decoration: none;
 }
+
+
+.navbar-default {
+    background-color: #007E33;
+    border-color: #fff;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #43a047;
+}
+
+
+.navbar-default .navbar-text {
+    color: #FFF;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #43a047;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #43a047;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .center {
     text-align: center;
@@ -35,6 +92,7 @@ $navbar-default-bg: #007E33;
 .btn-xlarge{
     font-size: 1.7em;
     background-color: #007E33;
+    border: none;
 }
 
 footer {
